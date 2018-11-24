@@ -2,4 +2,5 @@
 2. git status: check all the files status. 
 3. git add
 4. git commit -m "adding commit messages"
+5. git remove -v: this shows what my remote url is connected to
 

@@ -1,0 +1,5 @@
+1. git init: this create a .git file that keep track of all the snapshots.
+2. git status: check all the files status. 
+3. git add
+4. git commit -m "adding commit messages"
+

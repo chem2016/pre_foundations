@@ -1,6 +1,9 @@
+Notes for git basics:
+
 1. git init: this create a .git file that keep track of all the snapshots.
 2. git status: check all the files status. 
 3. git add
 4. git commit -m "adding commit messages"
 5. git remove -v: this shows what my remote url is connected to
-
+6. origin is the convention of remote repository
+7. copy others copy from github: this is called forking

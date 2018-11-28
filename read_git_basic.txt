@@ -7,3 +7,17 @@ Notes for git basics:
 5. git remove -v: this shows what my remote url is connected to
 6. origin is the convention of remote repository
 7. copy others copy from github: this is called forking
+
+
+notes for vscode:
+1. go to directory and run code . to open vscode
+2. 
+
+notes for chown
+1. sudo chown haoyuyu for npm implementation:
+	Haoyus-MBP:Foundations haoyuyu$ sudo chown -R haoyuyu /usr/local/lib/node_modules  # (-R means recursively set the ownership) 
+	Haoyus-MBP:Foundations haoyuyu$ sudo chown -R haoyuyu /usr/local/bin/
+	Haoyus-MBP:Foundations haoyuyu$ sudo chown -R haoyuyu /usr/local/share/
+	Haoyus-MBP:Foundations haoyuyu$ 
+
+2. npm config get prefix # this get the npm dir

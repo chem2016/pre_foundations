@@ -7,13 +7,14 @@ Notes for git basics:
 5. git remove -v: this shows what my remote url is connected to
 6. origin is the convention of remote repository
 7. copy others copy from github: this is called forking
+8. github is not a version control system, but rather a collabration tool
 
 
 notes for vscode:
 1. go to directory and run code . to open vscode
-2. 
+2. control + ` # open and close integrated terminal in vscode
 
-notes for chown
+notes fix permission for npm 
 1. sudo chown haoyuyu for npm implementation:
 	Haoyus-MBP:Foundations haoyuyu$ sudo chown -R haoyuyu /usr/local/lib/node_modules  # (-R means recursively set the ownership) 
 	Haoyus-MBP:Foundations haoyuyu$ sudo chown -R haoyuyu /usr/local/bin/
@@ -21,3 +22,14 @@ notes for chown
 	Haoyus-MBP:Foundations haoyuyu$ 
 
 2. npm config get prefix # this get the npm dir
+
+3. another way to reset the owner is to:
+	a. mkdir /Users/haoyuyu/npm-global
+        b. npm config set prefix /Users/haoyuyu/npm-global
+	c. npm install -g jshint -> this will create a command "jshint", but we need to set path 
+	d. vi ~/.profile -> add line export PATH=/Users/haoyuyu/npm-global/bin:$PATH
+	e. source ~/.profile
+
+
+notes for bash command:
+1. ls -a : show all the files including .files-> which are configuration files. 

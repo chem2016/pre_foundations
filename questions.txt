@@ -1,0 +1,13 @@
+1. after resetting the permission for npm, I still have the following errros:
+	Haoyus-MBP:bin haoyuyu$ n stable
+mkdir: /usr/local/n/versions/node: Permission denied
+mkdir: /usr/local/n/versions/io: Permission denied
+
+     install : node-v11.2.0
+       mkdir : /usr/local/n/versions/node/11.2.0
+mkdir: /usr/local/n/versions/node/11.2.0: Permission denied
+
+  Error: sudo required
+
+2. aftering installing ESLINT, I am not getting the errors as expected:
+const hello = 'hello'; # this should gives an error for not using varible created. 
